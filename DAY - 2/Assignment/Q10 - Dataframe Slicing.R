@@ -10,7 +10,7 @@ Rank <- c(5,8,6,7,9,2,1)
 
 df = data.frame(Name,Subject,Score,Rank)
 del_row_df<-df[-c(2),] # row deletion
-del_col_df<-within(df, rm("Subject")) #Colmn deletion
+del_col_df<-within(df, rm("Subject")) #Column deletion
 print("After deleting Row 2")
 del_row_df
 print("After Deleting Subject Column")
