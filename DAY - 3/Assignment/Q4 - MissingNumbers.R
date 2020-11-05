@@ -4,6 +4,7 @@ nums=function(input)
   lim=0:9
   #Checking  and saving the values missing
   output=lim[!lim %in% input]
+  #%in% gives the present postion
   return(output)
 }
 #Assigning input

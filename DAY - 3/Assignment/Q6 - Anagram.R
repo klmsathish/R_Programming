@@ -11,7 +11,7 @@ anagram<-function(str1,str2)
     match=unique(str1%in%str2==str2%in%str1)
     return( ifelse(length(str1)==length(str2) & length(match)==1,ifelse(match==TRUE,TRUE,FALSE),FALSE))
   }
-  #If length is not equal diirectly returs false
+  #If length is not equal directly returns false
   if (length(str1)!=length(str2))
     return(FALSE)
 }
