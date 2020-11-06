@@ -3,6 +3,7 @@ count=table(mtcars$vs,mtcars$gear)
 #barplot(table name,horiz = true)
 #deafult horiz is false
 #Beside tells whether the two charts should be side or stack above
+count
 barplot(count,beside = TRUE,
         legend=rownames(count),
         main="Simple Chart",
@@ -10,3 +11,4 @@ barplot(count,beside = TRUE,
         ylab ="Frequency",
         col = c("red","yellow"))
 #giving parameters for legend,colours,clable,ylabels
+mtcars
