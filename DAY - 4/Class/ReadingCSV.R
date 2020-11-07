@@ -1,5 +1,5 @@
 #Reading a CSV File
-df<-read.csv("Data/EmployeeDetails.csv")
+df<-read.csv("E:/R Programs For Practice/DAY - 4/Class/Data/EmployeeDetails.csv")
 #Data
 print(df)
 #Checking if it is a dataframe
