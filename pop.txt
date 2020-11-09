@@ -1,0 +1,16 @@
+"word" "freq"
+"hello" 5
+"hey" 14
+"test" 8
+"photo" 2
+"sathish" 9
+"sret" 36
+"yahoo" 2
+"gmail" 8
+"chennai" 5
+"AI" 7
+"ML" 14
+"Data" 9
+"mining" 6
+"Learning" 45
+"SBNA" 15

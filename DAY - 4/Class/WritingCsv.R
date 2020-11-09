@@ -6,3 +6,7 @@ write.csv(df,"test.csv",row.names = TRUE)
 #reading again the file for check
 data = read.csv("test.csv")
 print(data)
+
+
+
+class(round(runif(5,2,5),2))

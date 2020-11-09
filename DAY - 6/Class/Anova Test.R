@@ -10,4 +10,4 @@ stack_group = stack(combined_groups)
 stack_group
 #applying aov anova function
 anova  = aov(values~ind,data = stack_group)
-plot(anova)
+summary(anova)
