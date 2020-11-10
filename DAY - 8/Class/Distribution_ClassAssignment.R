@@ -3,7 +3,7 @@
 # 3. A student decides to guess on a section of his ACT test. The section contains 50 multiple choice questions and each question has 5 possible answers.
 # a) Find the expected number of correct responses.
 # 4. A company ships 5000 cell phones. They are expected to last an average of 10,000 hours before needing repair; with a standard deviation of 500 hours. Assume the survival time of the phones are normally distributed. If a phone is randomly selected to be tracked for repairs find the expected number that needs repair,
-a) after 11,000 hours
+#a) after 11,000 hours
 #ex1
 pbinom(7,size=10,prob=0.5)
 #ex2
