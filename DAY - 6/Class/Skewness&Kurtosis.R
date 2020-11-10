@@ -8,4 +8,5 @@ plot(density(df$mark))
 print(mean(df$mark))
 polygon(density(df$mark), col="red", border="blue")
 #kurtosis
+df$mark
 print(kurtosis(df$mark))
