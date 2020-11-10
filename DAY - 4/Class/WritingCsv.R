@@ -7,6 +7,3 @@ write.csv(df,"test.csv",row.names = TRUE)
 data = read.csv("test.csv")
 print(data)
 
-
-
-class(round(runif(5,2,5),2))

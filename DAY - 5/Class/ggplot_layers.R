@@ -11,4 +11,4 @@ pl+geom_point()+facet_grid(cyl ~ .)+
   stat_smooth()+coord_cartesian(xlim=c(10,35))+theme_bw()
 #facet grid is applying the factor method to get the unique values
 #coord cartion is used to limit the cordinates
-
+  
