@@ -13,3 +13,5 @@ print(prt)
 #plotting line chart
 plot(prt,type='l',col="red")
 lines(mtcars$mpg,type="l",col="blue")
+
+print(mtcars$mpg~.)
