@@ -8,4 +8,4 @@ train_test=sample.split(df,SplitRatio = 0.75)
 train=subset(df,split=TRUE)
 test=subset(df,split=FALSE)
 linear_regression <- lm(medv ~ crim + rm + tax + lstat, data = train)
-linear_regression
+
