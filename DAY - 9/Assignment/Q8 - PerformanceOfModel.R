@@ -12,11 +12,11 @@ linear_regression <- lm(medv ~ crim + rm + tax + lstat, data = train)
 
 r_squared <- summary(linear_regression)$r.squared
 print(paste("R - Square Value: ",r_squared))
-plot(linear_regression)
+
 
 predicted <- predict(linear_regression,test)
 results <- data.frame(predicted,test$medv)
-results
+
 
 ggplot(data = results, aes(x = predicted, y = test$medv)) +
   geom_point() +
